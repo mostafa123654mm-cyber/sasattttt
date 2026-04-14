@@ -1,0 +1,121 @@
+body {
+  font-family: 'Cairo', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 5;
+  padding:5;
+  background: #0f0e0e;
+  color: #f5f5f5;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #1c000000, #ff7b00);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+}
+nav {
+  display:flex ;
+  justify-content: center;
+  background: #131212;
+}
+
+nav a {
+  color: #f5f5f5;
+  text-decoration: none;
+  padding: 15px 25px;
+  transition: all 0.3s ease;
+}
+nav a:hover {
+  background: #ff7b00;
+  color: #fff;
+  border-radius: 5px;
+}
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background: #1a1a1a;
+  box-shadow: 0 0 15px rgba(238, 169, 10, 0.953);
+}
+table th, table td {
+  border: 1px solid #db8515;
+  padding: 12px;
+  text-align: center;
+}
+table th {
+  background: #ea6710;
+  color: #fff;
+}
+table tr:hover {
+  background: rgba(244, 120, 5, 0.899);
+  transition: background 0.3s ease;
+}
+form {
+  width: 80%;
+  margin: 30px auto;
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(248, 124, 8, 0.904);
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #ee7a0ef2;
+}
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  background: #ebe9e7ee;
+  color: #f0660bf8;
+}
+form input:focus, form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 10px #ea6309;
+}
+form button {
+  background: #a96c05;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+form button:hover {
+  transform: scale(1.05);
+  background: #de6d03;
+}
+footer {
+  background: #22201e;
+  text-align: center;
+  padding: 15px;
+  color: #888;
+}
+header {
+    background-color: var(--white);
+    box-shadow: var(--shadow);
+    padding: 1rem 5%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}

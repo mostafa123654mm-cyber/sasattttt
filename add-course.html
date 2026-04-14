@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Add Course - Personal Course Organizer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Add a New Course</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="courses.html">My Courses</a></li>
+    <li><a href="add-course.html">Add Course</a></li>
+    <li><a href="contact.html">Contact Us</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section>
+    <h2>Course Information</h2>
+
+    <form>
+
+      <label>Course Name:</label><br>
+      <input type="text" required><br><br>
+
+      <label>Instructor:</label><br>
+      <input type="text" required><br><br>
+
+      <label>Credits:</label><br>
+      <input type="number" min="1" max="5" required><br><br>
+
+      <label>Schedule Day:</label><br>
+      <select required>
+        <option value="">Select a day</option>
+        <option>Sunday</option>
+        <option>Monday</option>
+        <option>Tuesday</option>
+        <option>Wednesday</option>
+        <option>Thursday</option>
+      </select><br><br>
+
+      <button type="submit">Add Course</button>
+
+    </form>
+
+  </section>
+</main>
+
+<footer>
+  <p>Eng.Mostafa 2026 Personal Course Organizer</p>
+</footer>
+
+</body>
+</html>
